@@ -15,6 +15,9 @@ It contains basic file operation based on disk
 class MMapFileOperation: public FileOperation (having a member of MMapFile)
 It provides file operations via memory(optional)
 
+class IndexHandle：
+It contains fundamental operations of the index block 
+
 the index block structure:
 1 the index block header
 struct IndexHeader
