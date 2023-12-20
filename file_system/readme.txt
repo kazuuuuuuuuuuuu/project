@@ -41,3 +41,18 @@ struct MetaInfo
 Script file:
 1 block_init:
 generate the data block file and the index block file
+
+2 block_write:
+write metainfo into the index block first and then write the actual file
+
+3 block_read:
+read metainfo from the index block and use it to index the actual file
+
+4 block_delete:
+delete metainfo and append it into the reuse linked list
+
+5 block_compress:
+clean up the deleted file fragments in the data block
+
+6 block_stat:
+show the header of the index block 
