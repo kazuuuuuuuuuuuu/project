@@ -1,0 +1,135 @@
+
+06-05 21:13:43 956 [139676261988224][DEBUG][database]  db_ip_: 127.0.0.1
+
+06-05 21:13:43 957 [139676261988224][DEBUG][database]  db_port_: 3306
+
+06-05 21:13:43 961 [139676261988224][DEBUG][database]  db_user_: root
+
+06-05 21:13:43 961 [139676261988224][DEBUG][database]  db_pwd_: kazu
+
+06-05 21:13:43 961 [139676261988224][DEBUG][database]  db_name_: shared_bike
+
+06-05 21:13:43 961 [139676261988224][DEBUG][server]    svr_port_: 8888
+
+06-05 21:13:43 962 [139676261988224][DEBUG]DispatchMsgService::subscribe eid: 1, handler: UserEventHandler
+
+06-05 21:13:43 962 [139676261988224][DEBUG]DispatchMsgService::subscribe eid: 3, handler: UserEventHandler
+
+06-06 00:26:40 038 [140306924775296][DEBUG][database]  db_ip_: 127.0.0.1
+
+06-06 00:26:40 038 [140306924775296][DEBUG][database]  db_port_: 3306
+
+06-06 00:26:40 038 [140306924775296][DEBUG][database]  db_user_: root
+
+06-06 00:26:40 038 [140306924775296][DEBUG][database]  db_pwd_: kazu
+
+06-06 00:26:40 038 [140306924775296][DEBUG][database]  db_name_: shared_bike
+
+06-06 00:26:40 039 [140306924775296][DEBUG][server]    svr_port_: 8888
+
+06-06 00:26:40 050 [140306924775296][INFO]sql initialisation is successful
+
+06-06 00:26:40 050 [140306924775296][DEBUG]DispatchMsgService::subscribe eid: 1, handler: UserEventHandler
+
+06-06 00:26:40 050 [140306924775296][DEBUG]DispatchMsgService::subscribe eid: 3, handler: UserEventHandler
+
+06-06 00:28:40 116 [140306924775296][DEBUG]NetworkInterface::listener_cb - accept a client: 9, remote ip: 192.168.226.129
+
+06-06 00:28:42 117 [140306924775296][DEBUG]NetworkInterface::handle_request - received header: FBEB
+
+06-06 00:28:42 117 [140306924775296][DEBUG]NetworkInterface::handle_request - read_header_len: 10, message_len: 13
+
+06-06 00:28:42 117 [140306924775296][DEBUG]NetworkInterface::handle_request - read 13 bytes, total read len: 13, message_len: 13
+
+06-06 00:28:42 117 [140306890684160][DEBUG]DispatchMsgService::svc is running
+
+06-06 00:28:42 117 [140306890684160][DEBUG]DispatchMsgService::process - eid: 1
+
+06-06 00:28:42 118 [140306890684160][DEBUG]DispatchMsgService::process - get handler: UserEventHandler
+
+06-06 00:28:42 118 [140306890684160][DEBUG]UserEventHandler::handle_mobile_code_req - mobile phone: 13501293036, valiadate code: 455480
+
+06-06 00:28:42 118 [140306924775296][DEBUG]DispatchMsgService::deserialize_Event - eid:  2
+
+06-06 00:28:43 118 [140306924775296][DEBUG]NetworkInterface::handle_response
+
+06-06 00:28:48 120 [140306924775296][DEBUG]NetworkInterface::handle_request - received header: FBEB
+
+06-06 00:28:48 120 [140306924775296][DEBUG]NetworkInterface::handle_request - read_header_len: 10, message_len: 13
+
+06-06 00:28:48 120 [140306924775296][DEBUG]NetworkInterface::handle_request - read 13 bytes, total read len: 13, message_len: 13
+
+06-06 00:28:48 120 [140306880149248][DEBUG]DispatchMsgService::svc is running
+
+06-06 00:28:48 121 [140306880149248][DEBUG]DispatchMsgService::process - eid: 1
+
+06-06 00:28:48 121 [140306880149248][DEBUG]DispatchMsgService::process - get handler: UserEventHandler
+
+06-06 00:28:48 121 [140306880149248][DEBUG]UserEventHandler::handle_mobile_code_req - mobile phone: 13501293036, valiadate code: 888984
+
+06-06 00:28:48 121 [140306924775296][DEBUG]DispatchMsgService::deserialize_Event - eid:  2
+
+06-06 00:28:49 122 [140306924775296][DEBUG]NetworkInterface::handle_response
+
+06-06 00:28:52 123 [140306924775296][DEBUG]NetworkInterface::handle_request - received header: FBEB
+
+06-06 00:28:52 123 [140306924775296][DEBUG]NetworkInterface::handle_request - read_header_len: 10, message_len: 17
+
+06-06 00:28:52 123 [140306924775296][DEBUG]NetworkInterface::handle_request - read 17 bytes, total read len: 17, message_len: 17
+
+06-06 00:28:52 123 [140306871756544][DEBUG]DispatchMsgService::svc is running
+
+06-06 00:28:52 123 [140306871756544][DEBUG]DispatchMsgService::process - eid: 3
+
+06-06 00:28:52 123 [140306871756544][DEBUG]DispatchMsgService::process - get handler: UserEventHandler
+
+06-06 00:28:52 123 [140306871756544][DEBUG]UserEventHandler::handle_login_req - mobile phone: 13501293036, valiadate code: 888984
+
+06-06 00:28:52 125 [140306871756544][INFO]sql initialisation is successful
+
+06-06 00:28:53 123 [140306924775296][DEBUG]DispatchMsgService::deserialize_Event - eid:  4
+
+06-06 00:28:54 124 [140306924775296][DEBUG]NetworkInterface::handle_response
+
+06-06 00:29:02 126 [140306924775296][WARN]NetworkInterface::handle_error - reading timeout
+
+06-06 00:32:52 615 [139983376344960][DEBUG][database]  db_ip_: 127.0.0.1
+
+06-06 00:32:52 615 [139983376344960][DEBUG][database]  db_port_: 3306
+
+06-06 00:32:52 615 [139983376344960][DEBUG][database]  db_user_: root
+
+06-06 00:32:52 615 [139983376344960][DEBUG][database]  db_pwd_: kazu
+
+06-06 00:32:52 615 [139983376344960][DEBUG][database]  db_name_: shared_bike
+
+06-06 00:32:52 615 [139983376344960][DEBUG][server]    svr_port_: 8888
+
+06-06 00:32:52 617 [139983376344960][INFO]sql initialisation is successful
+
+06-06 00:32:52 617 [139983376344960][DEBUG]DispatchMsgService::subscribe eid: 1, handler: UserEventHandler
+
+06-06 00:32:52 617 [139983376344960][DEBUG]DispatchMsgService::subscribe eid: 3, handler: UserEventHandler
+
+06-06 00:32:57 624 [139983376344960][DEBUG]NetworkInterface::listener_cb - accept a client: 9, remote ip: 192.168.226.129
+
+06-06 00:32:59 627 [139983376344960][DEBUG]NetworkInterface::handle_request - received header: FBEB
+
+06-06 00:32:59 627 [139983376344960][DEBUG]NetworkInterface::handle_request - read_header_len: 10, message_len: 15
+
+06-06 00:32:59 627 [139983376344960][DEBUG]NetworkInterface::handle_request - read 15 bytes, total read len: 15, message_len: 15
+
+06-06 00:32:59 628 [139983342253824][DEBUG]DispatchMsgService::svc is running
+
+06-06 00:32:59 628 [139983342253824][DEBUG]DispatchMsgService::process - eid: 3
+
+06-06 00:32:59 628 [139983342253824][DEBUG]DispatchMsgService::process - get handler: UserEventHandler
+
+06-06 00:32:59 629 [139983342253824][DEBUG]UserEventHandler::handle_login_req - mobile phone: 13501293036, valiadate code: 0
+
+06-06 00:32:59 630 [139983376344960][DEBUG]DispatchMsgService::deserialize_Event - eid:  4
+
+06-06 00:33:00 631 [139983376344960][DEBUG]NetworkInterface::handle_response
+
+06-06 00:33:09 636 [139983376344960][WARN]NetworkInterface::handle_error - reading timeout
+
