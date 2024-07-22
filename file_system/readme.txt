@@ -1,5 +1,7 @@
+# summary
 This module focuses on efficient storage and rapid access to large-scale image files, using object-oriented design methods. It consists of data blocks and index blocks, where data blocks store the actual file content, and index blocks contain a hash table for storing file index information. I addressed hash collisions using linked lists and indexed files based on automatically distributed file numbers, implementing fundamental file operations such as insert, delete, update, and query. To accelerate index block access speed, I employed memory mapping. Additionally, I implemented features such as file fragment cleanup, error management, and index block metadata updating to support system stability and performance.
 
+# detail
 struct MMap_Option：
 It contains basic parameters used to determine memory mapping
 {
@@ -40,7 +42,7 @@ struct MetaInfo
 	int64_t next_;
 };
 
-Script file:
+#test case:
 1 block_init:
 generate the data block file and the index block file
 
