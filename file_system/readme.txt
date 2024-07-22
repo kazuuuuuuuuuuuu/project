@@ -42,7 +42,7 @@ struct MetaInfo
 	int64_t next_;
 };
 
-#test case:
+# test case:
 1 block_init:
 generate the data block file and the index block file
 
