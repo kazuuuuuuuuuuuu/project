@@ -2,7 +2,7 @@
 This module focuses on efficient storage and rapid access to large-scale image files, using object-oriented design methods. It consists of data blocks and index blocks, where data blocks store the actual file content, and index blocks contain a hash table for storing file index information. I addressed hash collisions using linked lists and indexed files based on automatically distributed file numbers, implementing fundamental file operations such as insert, delete, update, and query. To accelerate index block access speed, I employed memory mapping. Additionally, I implemented features such as file fragment cleanup, error management, and index block metadata updating to support system stability and performance.
 
 # detail
-struct MMap_Option：
+*struct MMap_Option：
 It contains basic parameters used to determine memory mapping
 {
 	int32_t max_size_; // maximum mapping size
@@ -10,19 +10,19 @@ It contains basic parameters used to determine memory mapping
 	int32_t append_size_; // add more size of the mapping area when remap
 }
 
-class MMapFile:
+*class MMapFile:
 Its object maps an open file to the memory using fd and struct MMap_Option as parameters
 
-class FileOpertaion(Parent class):
+*class FileOpertaion(Parent class):
 It contains basic file operation based on disk 
 
-class MMapFileOperation: public FileOperation (having a member of MMapFile)
+*class MMapFileOperation: public FileOperation (having a member of MMapFile)
 It provides file operations via memory(optional)
 
-class IndexHandle：
+*class IndexHandle：
 It contains fundamental operations of the index block 
 
-the index block structure:
+*the index block structure:
 1 the index block header
 struct IndexHeader
 {
@@ -43,20 +43,20 @@ struct MetaInfo
 };
 
 # test case:
-1 block_init:
+*1 block_init:
 generate the data block file and the index block file
 
-2 block_write:
+*2 block_write:
 write metainfo into the index block first and then write the actual file
 
-3 block_read:
+*3 block_read:
 read metainfo from the index block and use it to index the actual file
 
-4 block_delete:
+*4 block_delete:
 delete metainfo and append it into the reuse linked list
 
-5 block_compress:
+*5 block_compress:
 clean up the deleted file fragments in the data block
 
-6 block_stat:
+*6 block_stat:
 show the header of the index block 
